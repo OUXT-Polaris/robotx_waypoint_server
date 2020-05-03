@@ -1,0 +1,10 @@
+# Goal
+geometry_msgs/Pose pose
+std_msgs/Float32 threshold
+---
+# Result
+std_msgs/Bool is_reached
+---
+# Feedback
+std_msgs/Bool is_reached
+geometry_msgs/PoseStamped pose_stamped
