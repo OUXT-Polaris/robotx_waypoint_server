@@ -12,8 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#ifndef ROBOTX_WAYPOINT_SERVER__WAYPOINT_SERVER_HPP_
-#define ROBOTX_WAYPOINT_SERVER__WAYPOINT_SERVER_HPP_
+#ifndef ROBOTX_WAYPOINT_SERVER__WAYPOINT_SERVER_COMPONENT_HPP_
+#define ROBOTX_WAYPOINT_SERVER__WAYPOINT_SERVER_COMPONENT_HPP_
 
 #include <rclcpp/rclcpp.hpp>
 #include <rclcpp_action/rclcpp_action.hpp>
@@ -138,4 +138,4 @@ private:
   rclcpp::TimerBase::SharedPtr timer_;
 };
 }  // namespace robotx_waypoint_server
-#endif  // ROBOTX_WAYPOINT_SERVER__WAYPOINT_SERVER_HPP_
+#endif  // ROBOTX_WAYPOINT_SERVER__WAYPOINT_SERVER_COMPONENT_HPP_

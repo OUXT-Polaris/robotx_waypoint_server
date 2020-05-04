@@ -19,7 +19,8 @@
 int main(int argc, char ** argv)
 {
   rclcpp::init(argc, argv);
-  rclcpp::spin(std::make_shared<robotx_waypoint_server::WaypointServerComponent>(rclcpp::NodeOptions()));
+  rclcpp::spin(std::make_shared<robotx_waypoint_server::WaypointServerComponent>(
+      rclcpp::NodeOptions()));
   rclcpp::shutdown();
   return 0;
 }
